@@ -1,0 +1,591 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:400,100);
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+
+
+*
+{
+  margin:0;
+  padding:0;
+}
+
+body
+{
+    background-color: #EEEEEE;
+
+}
+
+nav
+{
+  position: relative;
+  z-index:1;
+  left: 5px;
+  display: block;
+  width:100%;
+  height: 70px;
+  font-family: Lato;
+  color: rgb(50,50,50);
+
+}
+
+nav .nav_item
+{
+  margin-left: -5px;
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+  display: inline-block;
+  background-color: #EEEEEE;
+  width:33.46%;
+}
+
+nav #nav_home
+{
+  width: 25px;
+  height: 25px;
+  position: relative;
+  top: 5px;
+}
+
+.first_content_under
+{
+  position: fixed;
+  top:0px;
+  left:0px;
+  background-image: url("/static/img/43.jpg");
+  background-size: cover;
+  background-position: 0px -100px;
+  width:100%;
+  height:900px;
+}
+
+.first_content
+{
+  height: 900px;
+}
+
+.panel
+{
+  font-family: Roboto;
+  position: relative;
+  top: 20px;
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 4Opx;
+  color: white;
+  padding: 20px;
+
+}
+
+.panel>span:first-child
+{
+  display: block;
+  font-size: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-weight: bold;
+  width: 70%;
+  margin-bottom: 10px;
+}
+
+div #lesson_list
+{
+  margin-top: 40px;
+  text-align: center;
+}
+
+div .lesson_item
+{
+  font-weight: bold;
+  display: inline-block;
+  border-radius: 10px;
+  padding: 20px;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  background-color: rgba(250, 250, 250, 0.3);
+}
+
+div .lesson_item a
+{
+  font-weight: initial;
+  display: inline-block;
+  margin-top: 10px;
+  text-decoration: none;
+  color: rgb(50,50,50);
+}
+
+div .lesson_item a:visited
+{
+  color: rgb(50,50,50);
+}
+
+div #chapter_list
+{
+  margin-top: 40px;
+  text-align: center;
+}
+
+div .chapter_item
+{
+  font-weight: bold;
+  display: inline-block;
+  border-radius: 10px;
+  padding: 20px;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  background-color: rgba(250, 250, 250, 0.3);
+}
+
+div #chapter_next
+{
+  width: 100px;
+  height: 100px;
+  background-image: url("/static/img/arrow.svg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  transform: rotate(-90deg);
+  float: right;
+  position: relative;
+  left: 100px;
+  top: 70px;
+}
+
+div #chapter_previous
+{
+  width: 100px;
+  height: 100px;
+  background-image: url("/static/img/arrow.svg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  transform: rotate(90deg);
+  float: left;
+  position: relative;
+  left:-100px;
+  top: 70px;
+}
+
+div .chapter_item a
+{
+  font-weight: initial;
+  display: inline-block;
+  margin-top: 10px;
+  text-decoration: none;
+  color: rgb(50,50,50);
+}
+
+div .chapter_item a:visited
+{
+  color: rgb(50,50,50);
+}
+
+.chapter_layer_info
+{
+  background-color: rgb(230,230,230);
+  width: 500px;
+  margin-top: -36px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align:center;
+  padding-top: 25px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  padding-bottom: 8px;
+  color: rgb(50,50,50);
+  font-size: 18px;
+
+}
+
+div #layer_create
+{
+  float: right;
+  position: relative;
+  top: -35px;
+}
+
+
+div #layer_validated
+{
+    background-color: rgba(250, 250, 250, 0.9);
+    border-radius: 5px;
+    color: rgb(25,25,25);
+    height: 400px;
+    overflow-y: hidden;
+   position: relative;
+  color: rgb(70,70,70);
+}
+
+div #layer_validated_id
+{
+    float: left;
+    font-size:50px;
+    margin: 20px;
+}
+
+div #layer_validated_info
+{
+    float: right;
+    margin: 20px;
+}
+
+div #layer_validated_more
+{
+  display: inline-block;
+  position: absolute;
+  width: 100%;
+  text-align:center;
+  top: 390px;
+}
+
+div #layer_list
+{
+  margin-top: 30px;
+}
+
+#user_layers .layer_item
+{
+  display: inline-block;
+  border-radius: 10px;
+  padding: 20px;
+  width: 100px;
+  height: auto;
+  margin-left: 10px;
+  margin-top: 40px;
+  text-align: center;
+  background-color: rgba(250, 250, 250, 0.3);
+}
+
+#user_layers .layer_item .button
+{
+  width: 90%;
+  margin-top: 10px;
+}
+
+div .layer_item a
+{
+  font-weight: initial;
+  display: inline-block;
+  margin-top: 10px;
+  text-decoration: none;
+  color: rgb(50,50,50);
+}
+
+div .layer_item a:visited
+{
+  color: rgb(50,50,50);
+}
+
+div #layer_content
+{
+  background-color: white;
+  color: rgb(50,50,50);
+  padding: 20px;
+  padding-left: 30px;
+  padding-right:30px;
+  border-radius: 3px;
+}
+
+div .layer_comment
+{
+  margin-top: 20px;
+  background-color: #EEEEEE;
+  border-radius: 3px;
+  padding:20px;
+}
+
+div .layer_comment hr
+{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: rgba(50,50,50,0.3);
+}
+
+div .layer_comment_info>span
+{
+  display: block;
+  margin-left: 0px;
+}
+
+div .layer_comment_info>span+span
+{
+  font-size:13px;
+}
+
+div #layer_info
+{
+  background-color: rgb(230,230,230);
+  width: 500px;
+  margin-top: -36px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align:center;
+  padding-top: 25px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  padding-bottom: 8px;
+  color: rgb(50,50,50);
+  font-size: 18px;
+
+}
+
+.button
+{
+  border: 1px solid white;
+  padding: 4px;
+  border-radius: 3px;
+  text-decoration: none;
+  color: white;
+  display: block;
+  text-align: center;
+  width:150px;
+  transition: all 1s ease;
+}
+
+.button:hover
+{
+  background-color: white;
+  color: rgb(50,50,50);
+}
+
+#layer_create
+{
+  margin-top: -40px;
+  border-color: rgb(150,150,150);
+  color: rgb(150,150,150);
+}
+
+#layer_create:hover
+{
+  border-color: rgb(50,50,50);
+  color: rgb(50,50,50);
+}
+
+#chapter_layer_create
+{
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 70px;
+  margin-bottom: -80px;
+}
+
+/* self.tpl/other.tpl */
+#user_id
+{
+  width: initial;
+  text-align: initial;
+  font-size: 50px;
+}
+
+#user_info
+{
+  margin-top: -60px;
+  width: 60%;
+  margin-left: 80px;
+}
+
+#user_identity
+{
+  display: block;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#user_picture
+{
+  float: right;
+  width: 200px;
+  height: 100px;
+  position: relative;
+  margin-top: -60px;
+  text-align: center;
+}
+
+#user_stat
+{
+  background-color: white;
+  border-radius: 3px;
+  margin-top: 20px;
+  padding: 10px;
+  color: rgb(50,50,50);
+}
+
+#user_layers
+{
+  display: block;
+  position: relative;
+  margin: 20px;
+  border: 1px solid white;
+  border-radius: 3px;
+  padding: 10px;
+  margin-top: 40px;
+  text-align: center;
+  min-height: 30px;
+}
+
+#user_follow
+{
+  margin-top: 20px;
+  color: rgb(50,50,50);
+  border-radius: 3px;
+  padding : 10px;
+  background-color: white;
+}
+
+.id_admin
+{
+  color: gold;
+}
+
+#user_picture > img
+{
+  width: 120px;
+  height: 120px;
+  border-radius: 3px;
+  margin-top: 5px;
+  margin-left: 50px;
+  border: 5px solid white;
+}
+
+.user_info>img
+{
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 3px;
+  float: left;
+  margin-top: -10px;
+}
+
+#user_follow .user_info>img
+{
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 3px;
+  float: initial;
+}
+
+.tooltipster-content img
+{
+  width: 20px;
+  margin-bottom: auto;
+  height: 20px;
+}
+
+input
+{
+    height: 20px;
+   line-height: 20px;
+}
+
+.input-submit
+{
+  margin-left: 10px;
+  display: inline;
+  opacity: 0;
+  width: 0px;
+  height: 15px;
+  line-height: 15px;
+}
+
+#user_comments{
+  margin-left: 20px;
+}
+
+#user_layers_title{
+  display: block;
+  font-weight: bold;
+  font-size: 25px;
+  margin-bottom: 10px;
+  position: absolute;
+  top: 10px;
+  cursor: pointer;
+  left: 10px;
+}
+
+#user_password
+{
+  margin-top: 10px;
+  position: relative;
+  padding: 10px;
+  padding-top: 35px;
+}
+
+#user_password form
+{
+  display: none;
+  opacity: 0;
+}
+
+#user_password_title
+{
+  font-weight: bold;
+  font-size: 15px;
+  margin-bottom: 10px;
+  position: absolute;
+  top : 10px;
+  left: 5px;
+  cursor: pointer;
+}
+
+#user_password_send
+{
+  border-color: rgb(150,150,150);
+  color: rgb(150,150,150);
+}
+
+#user_password_send:hover
+{
+  border-color: rgb(50,50,50);
+  color: rgb(50,50,50);
+}
+
+.button-dark
+{
+  border-color: rgb(150,150,150);
+  color: rgb(150,150,150);
+}
+
+.button-dark:hover
+{
+  border-color: rgb(50,50,50);
+  color: rgb(50,50,50);
+}
+
+#layerToPDF
+{
+  float: left;
+  position: relative;
+  top : 24px;
+  border-color: rgb(150,150,150);
+  color: rgb(150,150,150);
+}
+
+#layerToPDF:hover
+{
+  color: rgb(50,50,50);
+  border-color: rgb(50,50,50);
+}
+
+#user_picture_edit
+{
+  font-weight: bold;
+}
+
+#layer_create_save
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#layer_create_editor
+{
+  color: slategrey;
+}
+
+
+
+

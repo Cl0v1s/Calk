@@ -1,0 +1,35 @@
+<h1>Planifier un projet</h1>
+
+
+<h2>1.Les tâches d'un projet</h2>
+
+
+
+<h2>2. Le PERT</h2>
+
+<h3>Définition:</h3>
+Le PERT est un graphe orienté qui permet de representer les contraintes d'enchainement entre les sous-ensembles à réaliser pour meneer à bien un projet.
+<br>
+<h3>Formalisme de représentation</h3>
+<br>
+Les tâches figurent dans des rectangles, les contraintes d'enchainement sont représentées par des arcs
+<br>
+<pre style="font-size:8px;">
+                                  +------------+    +-----------+------------+   
+                         +------> |Tâche B     +--> |Tâche D    |            |   
++------+                 |        +------------+  +>+-----------+       +----v--+
+|      |        +--------+-+                     +                      |       |
+|Début +------> |Tâche A   |      +------------++   +-----------+       |Fin    |
+|      |        +--------+-+      |Tâche C     +--> |Tâche E    |       |       |
++------+                 +----->  +------------+    +----------++       +-------+
+                                                               +-------------^   
+
+</pre>
+<br>
+Le pert présente des indicateurs clés:
+<br>
+<ul>
+<li> Date de début et de fin au plus tôt 
+Compte tenu des contraintes d'enchainement, de la durée des taches et de la date de début du projet, la tâche T ne peut commencer avant le début au plus tôt et ne peut se terminer avant la fin au plus tôt.
+</li>
+</ul>
